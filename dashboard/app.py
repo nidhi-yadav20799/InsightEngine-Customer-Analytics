@@ -13,6 +13,7 @@ from sklearn.metrics import (
 )
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy import stats
+from pathlib import Path
 
 # ============================================================
 # PAGE CONFIG
@@ -127,16 +128,17 @@ def categorize_product(description):
 
 @st.cache_data
 def load_data():
-    df = pd.read_excel("data/online_retail_II.xlsx", sheet_name="Year 2009-2010")
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    DATA_FILE = BASE_DIR / "data" / "online_retail_II.xlsx"
+
+    df = pd.read_excel(DATA_FILE, sheet_name="Year 2009-2010")
     df = df.dropna(subset=["Customer ID"])
     df["InvoiceDate"] = pd.to_datetime(df["InvoiceDate"])
     df["TotalAmount"] = df["Quantity"] * df["Price"]
     df = df[(df["Quantity"] > 0) & (df["Price"] > 0)]
     df["Category"] = df["Description"].apply(categorize_product)
-    return df
 
-with st.spinner("Loading data..."):
-    df = load_data()
+    return df
 
 # ============================================================
 # SIDEBAR FILTERS
