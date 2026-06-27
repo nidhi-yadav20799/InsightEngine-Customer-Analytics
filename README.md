@@ -1,10 +1,10 @@
-# 📊 InsightEngine – E-Commerce Customer Analytics Dashboard
+#  InsightEngine – E-Commerce Customer Analytics Dashboard
 
 An end-to-end Data Science project that analyzes customer purchasing behavior using the Online Retail II dataset. The project covers the complete analytics pipeline—from data cleaning and exploratory analysis to customer segmentation, churn prediction, and product recommendation—deployed as an interactive Streamlit dashboard.
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 🔗 https://insightengine-customer-analytics.streamlit.app
 
@@ -35,7 +35,7 @@ InsightEngine-Customer-Analytics/
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 This project performs comprehensive customer analytics using transactional retail data.
 
@@ -51,7 +51,7 @@ The workflow includes:
 
 ---
 
-# 📊 Dataset
+#  Dataset
 
 **Dataset:** Online Retail II
 
@@ -96,9 +96,9 @@ https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
 ---
 
-# 🔹 Project Workflow
+#  Project Workflow
 
-## 1️⃣ Data Cleaning
+##  Data Cleaning
 
 - Missing value handling
 - Duplicate removal
@@ -109,7 +109,7 @@ https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
 ---
 
-## 2️⃣ Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 Performed multiple visual analyses including:
 
@@ -123,7 +123,7 @@ Performed multiple visual analyses including:
 
 ---
 
-## 3️⃣ Feature Engineering
+##  Feature Engineering
 
 Created customer-level features including:
 
@@ -136,7 +136,7 @@ Created customer-level features including:
 
 ---
 
-## 4️⃣ Customer Segmentation
+##  Customer Segmentation
 
 Applied RFM Analysis followed by:
 
@@ -154,7 +154,7 @@ Customer segments include:
 
 ---
 
-## 5️⃣ Churn Prediction
+##  Churn Prediction
 
 Customers were labeled as churned using a 90-day inactivity rule.
 
@@ -176,7 +176,7 @@ Evaluation metrics:
 
 ---
 
-## 6️⃣ Recommendation Engine
+##  Recommendation Engine
 
 Implemented a recommendation system using:
 
@@ -188,7 +188,7 @@ Top-N product recommendations are generated for each customer.
 
 ---
 
-# 📈 Streamlit Dashboard Features
+#  Streamlit Dashboard Features
 
 The dashboard includes:
 
@@ -202,7 +202,7 @@ The dashboard includes:
 
 ---
 
-# 📊 Dashboard Preview
+#  Dashboard Preview
 
 ### Overview
 
@@ -237,7 +237,7 @@ The dashboard includes:
 
 ---
 
-# 📈 Model Performance
+# Model Performance
 
 ### Logistic Regression
 
@@ -263,7 +263,7 @@ The dashboard includes:
 
 ---
 
-# 📌 Key Business Insights
+#  Key Business Insights
 
 - Revenue is highly concentrated among a small group of customers.
 - High-value customers contribute significantly to overall sales.
@@ -273,7 +273,7 @@ The dashboard includes:
 
 ---
 
-# ▶️ Installation
+#  Installation
 
 Clone the repository
 
@@ -308,18 +308,15 @@ streamlit run dashboard/app.py
 
 ---
 
-# 👩‍💻 Author
+#  Author
 
 **Nidhi Yadav**
 
-Data Science Graduate
 
 GitHub:
 https://github.com/nidhi-yadav20799
 
-LinkedIn:
-https://linkedin.com/in/nidhi-yadav207
 
 ---
 
-# ⭐ If you found this project useful, consider giving it a star.
+#  If you found this project useful, consider giving it a star.
