@@ -65,7 +65,7 @@ https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
 ---
 
-# ⚙️ Tech Stack
+#  Tech Stack
 
 ### Programming
 
@@ -295,7 +295,7 @@ streamlit run dashboard/app.py
 
 ---
 
-# 📚 Project Deliverables
+#  Project Deliverables
 
 - Complete Data Cleaning Pipeline
 - Exploratory Data Analysis
